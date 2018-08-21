@@ -6,44 +6,51 @@
     <title>Глейси</title>
   </head>
   <body>
+     <img src="img/logo.png" alt="Логотип">
     <header class="main-header">
-      <a href="#"><img src="img/logo.png" alt="Логотип"></a>
       <nav class="navigation">
         <ul class="main-menu">
           <li class="main-menu__item">
-            <a href="#" class="">Каталог</a>
+            <a href="#" class="main-menu__item" tabindex="1">Каталог</a>
             <ul class="sub-menu">
-              <li class="sub-menu__item sub-menu__title"><a href="#">1</a></li>
-              <li class="sub-menu__item"><a href="#">Каталог</a></li>
-              <li class="sub-menu__item"><a href="#">Доставка и оплата</a></li>
-              <li class="sub-menu__item"><a href="#">4</a></li>
-              <li class="sub-menu__item"><a href="#">5</a></li>
+                <li class="sub-menu_item"><a href="#">Новинки</a></li>
+              <li class="sub-menu_item sub-menu_title"><a href="#">Сливочное</a></li>
+              <li class="sub-menu_item"><a href="#">Шербеты</a></li>
+              <li class="sub-menu_item"><a href="#">Фруктовый лед</a></li>
+              <li class="sub-menu_item"><a href="#">Мелорин</a></li>
             </ul>
           </li>
           <li class="main-menu__item">
-            <a href="#">Доставка и оплата</a>
+            <a href="#" tabindex="2">Доставка и оплата</a>
           </li>
           <li class="main-menu__item">
-            <a href="#">О Компании</a>
+            <a href="#" tabindex="3">О Компании</a>
           </li>
         </ul>
       </nav>
-      <a href="#" class="search-link">Поиск</a>
+      <a href="#" class="search-link" tabindex="4">Поиск</a>
         <form action="#">
-          <input type="text" class="input-search" name="search" id="search">
-          <label for="search">Поиск</label>
-          <input type="submit" class="submit-search">
+          <input type="image" src="img/loupe.png" class="submit-search" tabindex="6" alt="кнопка поиск"><br>
+          <input type="text" class="input-search" name="search" id="search" tabindex="5" placeholder="Что ищем?">
         </form>
-
-      <a href="#" class="entry-link">Вход</a>
-
-      <a href="#" class="cart-link">Пусто</a>
-
+        <form class="input_button">
+         <input type="image" src="img/login_button.png" class="ingress" alt="Кнопка вход">
+         <div class="inlet">
+           <input type="text" placeholder="электроная почта" class="mail"><br>
+           <input type="text" placeholder="пароль" class="password"><br>
+           <input type="image" src="img/button_come.png" class="login_button" alt="Кнопка войти">
+           <a href="#">Забыли пароль</a><br>
+           <a href="#">Новая регистрация</a>
+         </div>
+         <br> 
+           <input type="image" src="img/Button_empty.png" alt="Кнопка пусто">
+        </form>
       <p class="worktime">C 10 до 20 ежедневно</p>
-      <a href="tel:88124502525" class="phone">8 812 450-25-25</a>
+      <a href="tel:88124502525" class="phone" tabindex="9">8 812 450-25-25</a>
     </header>
+
 	<style>
-      .main-slider__button
+      .main-slider_button
    {
    background-color:#8a9c8f;
    }
@@ -55,32 +62,86 @@
   {
   	background: url("C:\Users\user\Desktop\img\Мороженое.png");
   }
+  .modal
+  {
+    background-color: white;
+    width:473px;
+    height:4.50px;
+  }
+  .door
+  {
+   background-color:white;
+   width: 476px;
+   height: 442px; 
+  }
+   .data .name, .data .mail
+  {
+    width:267px;
+    height:35px;
+  }
+  .write
+  {
+    width:428px;
+    height: 152px;
+  }
+  .inlet .mail
+  {
+    width: 238px;
+    height: 44px;
+  }
+  .inlet .password
+  {
+    width: 240px;
+    height: 43px;
+  }
+  .inlet
+  {
+    background-color: white;
+    width: 279px;
+    height:216px;
+  }
   </style>
     <main>
+
       <h1 class="hidden">Главная страница</h1>
 
       <!-- Главный слайдер -->
-      <div class="main-slider">
+      <section class="main-slider">
           <h3 class="main-slider__title">Крем-брюле и пломбир с малиновым джемом</h3>
-          <a href="#" class="main-slider__button">Давайте оба!</a>
-      </div>
-
-      <!-- Лучшие предложения -->
+          <a href="#" class="main-slider__button" tabindex="10">Давайте оба!</a>
+      </section>
+      <section class="door">
+        <h2 class="hidden">Вход</h2>
+        <br>
+         <form method="post" action="#" class="data">
+           <input type="text" placeholder="Как вас зовут?" class="name"><br>
+           <input type="text" placeholder="Ваша почта для ответа?" class="mail"><br>
+           <input type="text" placeholder="Напишите что нибудь" class="write"><br>
+           <input type="image" src="img/Button_send.png" alt="Отправить">
+         </form>
+       </section> 
+       <section class="switch">
+        <h2 class="hidden">Слайдер</h2>
+            <ul>
+              <li><button></button></li>
+              <li><button></button></li>
+              <li><button></button></li>
+            </ul>  
+       </section>          
       <section class="best-offers">
 
         <h2 class="hidden">Лучшие предложения</h2>
-
         <div class="best-offer best-offer--raspberry">
           <h3 class="best-offer__title">Малинка даром</h3>
           <p class="best-offer__description">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-          <a href="#" class="best-offer__button">Хочу варенье!</a>
+          <a href="#" class="best-offer__button" tabindex="14">Хочу варенье!</a>
         </div>
 
         <div class="best-offer best-offer--choko">
           <h3 class="best-offer__title">Шоколад даром</h3>
           <p class="best-offer__description">При покупке 2 кг пломбира,
           Добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно</p>
-          <a href="#" class="best-offer__button">Хочу шоколадки!</a>
+          <a href="#" class="best-offer__button" tabindex="15">Хочу шоколадки!</a>
         </div>
 
       </section>
@@ -92,35 +153,35 @@
         <h2 class="hidden">Хиты продаж</h2>
         <ul class="products-list">
                  <li class="product-item">
-                   <img src="img/product-310р.png" class="product-item__image"   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
+                   <img src="img/product-310.png" class="product-item__image"   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
                    <p class="product-item__price">
                    310<span class="small">/кг</span></p>
                    <p class="product">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-                   <a href="#" class="product-item__button">Быстрый просмотр</a>
+                   <a href="#" class="product-item__button" tabindex="16">Быстрый просмотр</a>
                 </li>
                 
                 <li class="product-item">
-                  <img src="img/product-380р.png" class="product-item__image"  alt="Сливочно-кофейное с кусочками шоколада">
+                  <img src="img/product-380.png" class="product-item__image"  alt="Сливочно-кофейное с кусочками шоколада">
                   <p class="product-item__price">
                   380<span class="small">/кг</span></p>
                   <p class="product">Сливочно-кофейное с кусочками шоколада</p>
-                  <a href="#" class="product-item__button">Быстрый просмотр</a>
+                  <a href="#" class="product-item__button" tabindex="17">Быстрый просмотр</a>
                 </li>
 
                <li class="product-item">
-                  <img src="img/product-355р.png" class="product-item__image" alt="Сливочно-клубничное с присыпкой из белого шоколада">
+                  <img src="img/product_355.png" class="product-item__image" alt="Сливочно-клубничное с присыпкой из белого шоколада">
                   <p class="product-item__price">
                   355<span class="small">/кг</span></p>
                   <p class="product">Сливочно-клубничное с присыпкой из белого шоколада</p>
-                  <a href="#" class="product-item__button">Быстрый просмотр</a>
+                  <a href="#" class="product-item__button" tabindex="18">Быстрый просмотр</a>
                </li>
 
                <li class="product-item">
-                  <img src="img/product-415р.png" class="product-item__image" alt="Сливочное крем-брюле с карамельной подливкой">
+                  <img src="img/product-415.png" class="product-item__image" alt="Сливочное крем-брюле с карамельной подливкой">
                   <p class="product-item__price">
                   415<span class="small">/кг</span></p>
                   <p class="product">Сливочное крем-брюле с карамельной подливкой</p>
-                  <a href="#" class="product-item__button">Быстрый просмотр</a>
+                  <a href="#" class="product-item__button" tabindex="19">Быстрый просмотр</a>
                </li>
 
         </ul>
@@ -158,7 +219,7 @@
       <!-- Новое в нашем блоге -->
       <section class="new-article">
         <p class="new-article__caption">Новое в нашем блоге</p>
-        <h2 class="new-article__title"><a href="#">10 способов сервировки фруктовых щербетов к столу</a></h2>
+        <h2 class="new-article__title"><a href="#" tabindex="20">10 способов сервировки фруктовых щербетов к столу</a></h2>
       </section>
 
       <!-- Подписка -->
@@ -186,16 +247,16 @@
          <footer>
              <h2>Мы в соц.сетях</h2>
             <ul class="socials">
-                <li><a href="#"  class="social_instagram"><img src="img/birdie.png" alt="mail"></a></li>
-                <li><a href="#"  class="social_facebook"><img src="img/camera.png" alt="instagram"></a></li>
-                <li><a href="#"  class="social-vk"><img src="img/facebook.png" alt="facebook"></a></li>
-                <li><a><img src="img/Vkontakte.png" alt="Vkontakte"></a></li>
+                <li><a href="#"  class="social_instagram" tabindex="21"><img src="img/birdie.png" alt="mail"></a></li>
+                <li><a href="#"  class="social_facebook" tabindex="22"><img src="img/camera.png" alt="instagram"></a></li>
+                <li><a href="#"  class="social-vk" tabindex="23"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#" tabindex="24"><img src="img/Vkontakte.png" alt="Vkontakte"></a></li>
             </ul> 
             <ul class="gen">
                 <li class="lines_1"><ins class="stroke_1"><b class="porky">Для поставщиков</b> О производстве</ins></li>
                 <li class="lines_2"><ins class="stroke_2">Наши документы Экологические стандарты</ins></li>
                 <li><img src="img/logo-footer.png" class="lines_3" alt="logo"></li>
-                <li class="copyright">Сделано в <a href="">HTML Academy</a> 2017</li>
+                <li class="copyright">Сделано в <a href="#" tabindex="25">HTML Academy</a> 2017</li>
             </ul>
         </footer>
     </main>
