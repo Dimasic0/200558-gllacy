@@ -1,0 +1,52 @@
+<style>
+   .main-slider_button
+   {
+   background-color:#8a9c8f;
+   }
+   body
+   {
+    background-color:#8a9c8f;
+   }
+  .main-slider
+  {
+    background: url("C:\Users\user\Desktop\img\Мороженое.png");
+  }
+  .modal
+  {
+    background-color: white;
+    width:473px;
+    height:4.50px;
+  }
+  .door
+  {
+   background-color:white;
+   width: 476px;
+   height: 442px; 
+  }
+   .data .name, .data .mail
+  {
+    width:267px;
+    height:35px;
+  }
+  .write
+  {
+    width:428px;
+    height: 152px;
+  }
+  .inlet .mail
+  {
+    width: 238px;
+    height: 44px;
+  }
+  .inlet .password
+  {
+    width: 240px;
+    height: 43px;
+  }
+  .inlet
+  {
+    background-color: white;
+    width: 279px;
+    height:216;
+  }
+</style>
