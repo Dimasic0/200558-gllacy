@@ -1,11 +1,17 @@
 
 <style>
+<<<<<<< HEAD
 .product-item
 {
+=======
+  .product-item
+  {
+>>>>>>> 82c9951f63c428e6052decd952c57d776236b73e
   font-family:roboto;
   font-size:16px;
   line-height:22px;
   letter-spacing:0px;
+<<<<<<< HEAD
 }
 .main-menu__item
 {
@@ -15,11 +21,23 @@
 }
 .porky
 {
+=======
+  }
+  .main-menu__item
+  {
+  font-family:roboto;
+  font-size:16px;
+  font-weight:bold;
+  }
+  .porky
+  {
+>>>>>>> 82c9951f63c428e6052decd952c57d776236b73e
   font-family:roboto;
   font-size:13px;
   font-weight:bold;
   line-height:16px;
   letter-spacing:0px;
+<<<<<<< HEAD
 }
 .copyright
 {
@@ -31,10 +49,10 @@ p
 {
   color:white;
 }
-.main-menu li a
+.sub-menu__item a,
+.main-menu__item a
 {
   color:white;
-  font-size:16px;
 }
 body
 {
@@ -120,7 +138,7 @@ body
 {
   font-size:14px;
   line-height:16px;
-  font-weight:normal;
+  font-height:normal;
   color:#f8faf9;
 }
 .phone
@@ -139,5 +157,32 @@ h2
   line-height:41px;  
   color:white;
 }
+=======
+  }
+  .lines_1,
+  .stroke_2
+  {
+  font-size:13px;
+  line-height:16px;
+  }
+  .copyright
+  {
+  font-size:12px;
+  line-height:16px;
+  }
+  p
+  {
+  color:white;
+  }
+  .sub-menu__item a,
+  .main-menu__item a
+  {
+   color:white;
+  }
+  body
+  {
+  background-color:#8a9c8f;
+  }
+>>>>>>> 82c9951f63c428e6052decd952c57d776236b73e
 </style>
   

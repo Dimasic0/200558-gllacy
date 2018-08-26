@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Глейси каталог</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="catalog_css.css">  
   </head>
   <body>
@@ -11,7 +12,7 @@
         <nav class="navigation">
           <ul class="main-menu">
             <li class="main-menu__item">
-              <a href="#" class="">Каталог</a>       
+              <a href="#" class="main-menu__item">Каталог</a>       
               <ul class="sub-menu">
                 <li class="sub-menu__item sub-menu__title"><a href="#">1</a></li>
                 <li class="sub-menu__item"><a href="#">Каталог</a></li>
@@ -28,10 +29,9 @@
         <form action="#">
           <input type="text" class="input-search" name="search" id="search">
           <label for="search">Поиск</label>
-          <input type="submit" class="submit-search">
+          <input type="image" src="img/loupe.png" class="submit-search">
         </form>
-        <a href="#" class="entry-link">Вход</a>
-        <a href="#" class="cart-link">Пусто</a>
+        <input type="image" src="img/login_button.png" class="entry-link">
         <div class="order">
           <p class="word_total">Итого</p>
           <form method="post" action="#" class="order_form">
@@ -48,7 +48,7 @@
 
       <main>
         <section class="bread__crumbs">
-          <h2 class="hidden">Хлебные крошки</h2>                   
+          <h3 class="hidden">Хлебные крошки</h3>                   
           <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="#">Каталог</a></li>
@@ -57,10 +57,11 @@
         </section>
              
         <section class="filters">
-          <h2 class="hidden">Параметры фильтра</h2>
+         <h2 class="caption">Сливочное мороженое</h2>
+          <h3 class="hidden">Параметры фильтра</h3>
           <form> 
             <fieldset class="filter">
-              <legend>Сортировка</legend>         
+              <legend class="sort__header">Cортировка:</legend>         
               <select class="filter-form">
                 <option value="1">по популярности</option>
                 <option value="2">сначала недорогие</option>
@@ -70,12 +71,12 @@
             </fieldset>	
             
             <fieldset class="toddler">
-              <legend>Цена: 100 руб. - 500 руб</legend>
+              <legend>Цена: 100 руб. - 500 руб.</legend>
               <input type="range" min="100" max="500" step="1">
             </fieldset>
          
-            <fieldset class="fat_content">
-              <legend>Жирность</legend>
+            <fieldset class="fat__content">
+              <legend>Жирность:</legend>
               <label><input type="radio" name="switches" checked>0%</label>
               <label><input type="radio" name="switches">10%</label>
               <label><input type="radio" name="switches">30%</label>
@@ -83,18 +84,19 @@
             </fieldset>
          
             <fieldset class="fillers">
+              <legend>Наполнители:</legend>
               <label><input type="checkbox">шоколадные</label>
               <label><input type="checkbox">сахарные присыпки</label>
               <label><input type="checkbox">фрукты</label>
               <label><input type="checkbox">сиропы</label>
               <label><input type="checkbox">джемы</label>
             </fieldset>
-            <input type="submit" value="Применить">
+            <input type="image" src="img/apply.png">
           </form>
         </section>
 
         <section class="production">
-          <h2 class="hidden">Каталог</h2>
+          <h3 class="hidden">Каталог</h3>
           <ul class="catalog">                          
             <li class="product-item">
               <img src="img/product-310р.png" class="product-item__image"   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
@@ -183,7 +185,7 @@
         </section>
            
         <section>
-          <h2 class="hidden">Страницы</h2>       
+          <h3 class="hidden">Страницы</h3>       
           <ul class="pages">
             <li><a href="#">0</a></li>
             <li><a href="#">1</a></li>
@@ -197,7 +199,7 @@
          
 
         <footer>
-          <h2>Мы в соц.сетях</h2> 
+          <h3>Мы в соц.сетях</h3> 
           <ul class="socials">
             <li><a href="#"  class="social__twitter"><img src="img/birdie.png" alt="twitter"></a></li>
             <li><a href="#"  class="social__instagram"><img src="img/camera.png" alt="instagram"></a></li>

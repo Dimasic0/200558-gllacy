@@ -1,52 +1,306 @@
 <style>
-   .main-slider_button
-   {
-   background-color:#8a9c8f;
+    .worktime
+    {
+      color:red;
+      font-size:14px;
+      line-height:16px; 
+      color:white;
+      font-weight:bold;
+    }
+    .phone
+    {
+      color:white;
+      font-size:22px;
+      line-height:24px;
+      text-decoration:none;	
+      font-weight:bold;
+    }
+    .main-menu__item>a
+    {
+      color:white;
+      font-size:16; 
+      font-weight:bold;
+      line-height:18px;
+    }
+    .main-slider__title
+    {
+      color:white;
+      font-weight:bold;
+      font-size:60px;
+      line-height:60px;	
+    }
+    .main-slider__button
+    {
+      color:white;
+      font-weight:bold;
+      font-size:32px;
+      line-height:44px;	
+    }
+    .best-offer__title
+    {
+      color:white;
+      font-size:35px;
+      font-weight:bold;
+      line-height:41px; 	
+    }
+    .best-offer__description
+    {
+      color:white;	
+      font-size:18px;
+      line-height:22px;	
+      font-weight:bold;
+    }
+    .best-offer__button
+    {
+      color:white;	
+      font-size:18px;
+      line-height:24px;
+      font-weight:bold;	
+    }
+    .product-item__price
+    { 
+      color:white;
+      font-size:45px;
+      font-weight:bold;
+      line-height:45px;	
+    }
+    .small
+    { 
+      color:white;	
+      font-size:30px;
+      font-weight:bold;
+      line-height:45px;	
+    }
+    .product
+    {
+     color:white;	
+     font-size:16px;
+     font-weight:normal;
+     line-height:22px;	
+    }
+    .benefits__title
+    {
+      color:#323232;	
+      font-size:24px;
+      line-height:30px;
+      font-weight:normal;	
+    }
+    .benefit__description
+    { 
+      color:#323232;
+      font-size:16px;
+      font-weight:normal;
+      line-height:22px;
+    }
+    .new-article__caption
+    {
+      color:#323232;	
+      font-size:16px;
+      font-weight:medium;
+      line-height:22px;	
+    }
+    .new-article__title a
+    { 
+      color:#323232;	
+      font-size:24px;
+      font-weight:bold;
+      line-height:30px;	
+    }
+    .subscribe__description
+    {
+    	color:#5a5a5a;
+    	font-size:16px;
+    	font-weight:normal;
+    	line-height:22px;
+    }
+    .address
+    {
+      color:#323232;
+      font-size:14px;
+      font-weight:normal;
+      line-height:20px;	
+    }
+    .information .address+p
+    {
+      color:#323232;
+      font-size:18px;
+      font-weight:bold;
+      line-height:24px;
+    }
+    .phone
+    { 
+      color:#323232;	
+      font-size:14px;
+      font-weight:normal;
+      line-height:20px;	
+    }
+    .number
+    {
+      color:#23232;
+      font-size:18px;
+      font-weight:bold;
+      line-height:22px;	
+    }
+    .working__hours
+    {
+      color:#323232;	
+      font-weight:normal;	
+      font-size:14px;
+      line-height:22px;	
+    }
+     .suppliers .underscore
+    {
+      color:#c3cfc9;
+      font-weight:normal;	
+      font-size:13px;
+      line-height:18px;
+    }
+    .suppliers .porky
+    {
+      color:white;
+      font-size: 13px;
+      line-height: 18px;	
+      font-weight:bold;	
+    }
+    .document ins
+    {
+      color:#b9c7bf;
+      font-size:13px;
+      line-height:18px;
+    }
+    .copyright,
+    .copyright a
+    {
+      color:#fefefe;
+      font-size:12px;
+      font-weight:normal;
+      line-height:18px	
+    }
+    .best-offer--raspberry
+    {
+      background: url("img/Crimson background.png") no-repeat;	
+    }
+    .best-offer--choko
+    {
+      background:url("img/Chocolate background.png") no-repeat;	
+    }
+    .best-offers div
+    {
+     width:560px;
+     height:229px;	
+    }
+    .best-offer__description
+    {
+      color:white;
+      font-size:18px;ссс
+      font-weight:bold;
+      line-height:22px;	
+    }
+    .new-article
+    {
+      width:1146px;
+      height:306px;
+      background:url("img/wafers.png")no-repeat;	
+    }
+    .subscribe
+    {
+      width:560px;
+      height:222px;
+      background: url("img/subscription.png")no-repeat;	
+    }
+    .information
+    {
+      width:1250px;
+      height:430px;
+      background:url("img/map_ice.png")no-repeat;	
+    }
+    .information div 
+    {
+      width:302px;
+      height:305px;	
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.98);
+      z-index: 88;
    }
-   body
+   .name,.mail
    {
-    background-color:#8a9c8f;
+   	  width:268px;
+   	  height:44px;
+   	  border-radius: 5px;
+   }
+   .review
+   {
+      width:477px;
+   	  height:442px;
+   	  background-color:#f8f7f4;
+   }
+   .write
+   {
+      width:429px;
+      height:153px;
+      border-radius: 5px;
+   }
+   .input-search
+   {
+     width:309px;
+     height:44px;
+     border-radius: 6px;
+   }
+   .quest
+   {
+   	color:#f8f7f4;
+   	width:345px;
+   	height:84px;
+   	background-color:#f8f7f4;
    }
   .main-slider
   {
-    background: url("C:\Users\user\Desktop\img\Мороженое.png");
+  	width:647;
+  	height:584px;
+    background:url("img/brulee_and_raspberry.png")no-repeat; 	
   }
-  .modal
+  .bestsellers img
   {
-    background-color: white;
-    width:473px;
-    height:4.50px;
+  	width:267px;
+  	height:267px;
   }
-  .door
+  .logo
   {
-   background-color:white;
-   width: 476px;
-   height: 442px; 
+  	width:154px;
+  	height:64px;
   }
-   .data .name, .data .mail
+  .socials img
   {
-    width:267px;
-    height:35px;
+    width:  38px;
+    height: 38px;
   }
-  .write
+  .logo-footer
   {
-    width:428px;
-    height: 152px;
+  	width:108px;
+  	height:39px;
   }
-  .inlet .mail
+  .ice__cream__icon
   {
-    width: 238px;
-    height: 44px;
+  	width:49px;
+  	height:49px;
+  	background:url("img/iceca_ice_cream.png")no-repeat;
   }
-  .inlet .password
+  .benefits
   {
-    width: 240px;
-    height: 43px;
+  	width:1146px;
+  	height:306px;
+  	background:url("img/wafers.png")no-repeat;
   }
-  .inlet
+  .new-article
   {
-    background-color: white;
-    width: 279px;
-    height:216;
+  	width:560px;
+  	height:220px;
+  	background: url("img/Strawberry background.png");
+  }
+  .subscribe
+  {
+  	background: url("img/subscription.png")no-repeat;
+  	width:560px;
+  	height:220px;
   }
 </style>
