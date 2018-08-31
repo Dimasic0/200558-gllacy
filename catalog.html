@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+pages
   <head>
     <meta charset="utf-8">
     <title>Глейси каталог</title>
@@ -14,7 +15,7 @@
           <ul class="main-menu">
             <li class="main-menu__item">
               <a href="#" class="main-menu__item">Каталог</a>       
-              <ul class="sub-menu">s
+              <ul class="sub-menu">
                 <li class="sub-menu__item sub-menu__title"><a href="#">1</a></li>
                 <li class="sub-menu__item"><a href="#">Каталог</a></li>
                 <li class="sub-menu__item"><a href="#">Доставка и оплата</a></li>
@@ -29,7 +30,7 @@
         <a href="#" class="search-link">Поиск</a>
         <form action="#">
           <input type="text" class="input-search" name="search" id="search">
-          <label for="search">Поиск</label>
+          <label for="search" class="search_word">Поиск</label>
           <input type="image" src="img/loupe.png" class="submit-search">
         </form>
         <input type="image" src="img/login_button.png" class="entry-link">
@@ -61,19 +62,18 @@
          <h2 class="caption">Сливочное мороженое</h2>
           <h3 class="hidden">Параметры фильтра</h3>
           <form> 
-            <fieldset class="filter">
-              <legend class="sort__header">Cортировка:</legend>         
-              <select class="filter-form">
-                <option value="1">по популярности</option>
-                <option value="2">сначала недорогие</option>
-                <option value="3">сначала дорогие</option>
-                <option value="4">по жирности</option>
-              </select>
+             <fieldset class="filter">
+               <legend class="sort__header">Cортировка:</legend>         
+               <select class="filter-form">
+                 <option value="1">по популярности</option>
+                 <option value="2">сначала недорогие</option>
+                 <option value="3">сначала дорогие</option>
+                 <option value="4">по жирности</option>
+               </select>
             </fieldset>	
-            
             <fieldset class="toddler">
               <legend>Цена: 100 руб. - 500 руб.</legend>
-              <input type="range" min="100" max="500" step="1">
+              <input type="range" min="100" max="500" step="1" class="pallet">
             </fieldset>
          
             <fieldset class="fat__content">
@@ -98,22 +98,22 @@
 
         <section class="production">
           <h3 class="hidden">Каталог</h3>
-          <ul class="catalog">                          
-            <li class="product-item">
+          <ul class="catalog">  	  
+            <li class="product-item  stratum">
               <img src="img/product-310р.png" class="product-item__image"   alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
               <p class="product-item__price">310р<span class="small">/кг</span></p>
               <p class="product">Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
                 
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-380р.png" class="product-item__image"  alt="Сливочно-кофейное с кусочками шоколада">
               <p class="product-item__price">380р<span class="small">/кг</span></p>
               <p class="product">Сливочно-кофейное с кусочками шоколада</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
 
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-355р.png" class="product-item__image" alt="Сливочно-клубничное с присыпкой из белого шоколада">
               <p class="product-item__price">355р<span class="small">/кг</span></p>
               <p class="product">Сливочно-клубничное с присыпкой из белого шоколада</p>
@@ -125,23 +125,22 @@
               <p class="product-item__price">415р<span class="small">/кг</span></p>
               <p class="product">Сливочное крем-брюле с карамельной подливкой</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
-            </li>
-                   
-            <li class="product-item">
+            </li>     
+            <li class="product-item stratum">
               <img src="img/product-325р.png" class="product-item__image" alt="Сливочное с бручничным джемом">
               <p class="product-item__price">325р<span class="small">/кг</span></p>
               <p class="product">Сливочное с бручничным джемом</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
                   
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-410р.png" class="product-item__image" alt="Сливочно-черничное с цельными ягодами черники">
               <p class="product-item__price">410р<span class="small">/кг</span></p>
               <p class="product">Сливочно-черничное с цельными ягодами черники</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
                   
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-375р.png" class="product-item__image" alt="Сливочно-лимонное с карамельной прмисыпкой">
               <p class="product-item__price">375р<span class="small">/кг</span></p>
               <p class="product">Сливочно-лимонное с карамельной прмисыпкой</p>
@@ -155,21 +154,21 @@
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
 
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-440р.png" class="product-item__image" alt="Сливочно-ванильное с кусочками шоколада">
-              <p class="product-item__price">440<span class="small">/кг</span></p>
+              <p class="product-item__price">440р<span class="small">/кг</span></p>
               <p class="product">Сливочно-ванильное с кусочками шоколада</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
 
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-435.png" class="product-item__image" alt="Сливочное с ментоловым сиропом">
               <p class="product-item__price">435р<span class="small">/кг</span></p>
               <p class="product">Сливочное с ментоловым сиропом</p>
               <a href="#" class="product-item__button">Быстрый просмотр</a>
             </li>
 
-            <li class="product-item">
+            <li class="product-item stratum">
               <img src="img/product-355.png" class="product-item__image" alt="Сливочное с кусочками чёрного шоколада">
               <p class="product-item__price">355р<span class="small">/кг</span></p>
               <p class="product">Сливочное с кусочками чёрного шоколада</p>
@@ -185,15 +184,15 @@
           </ul>
         </section>
            
-        <section>
+        <section class="page_number">
           <h3 class="hidden">Страницы</h3>       
           <ul class="pages">
-            <li><a href="#">0</a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
+            <li class="number first_digit"><a href="#">0</a></li>
+            <li class="number"><a href="#">1</a></li>
+            <li class="number"><a href="#">2</a></li>
+            <li class="number"><a href="#">3</a></li>
+            <li class="number"><a href="#">4</a></li>
+            <li class="last_figure"><a href="#">5</a></li>
             <li><a href="#">6</a></li>
           </ul> 
         </section>
@@ -202,7 +201,7 @@
         <footer>
           <h3>Мы в соц.сетях</h3> 
           <ul class="socials">
-            <li><a href="#"  class="social__twitter"><img src="img/birdie.png" alt="twitter"></a></li>
+            <li class="twitter"><a href="#"  class="social__twitter"><img src="img/birdie.png" alt="twitter"></a></li>
             <li><a href="#"  class="social__instagram"><img src="img/camera.png" alt="instagram"></a></li>
             <li><a href="#"  class="social__facebook"><img src="img/facebook.png" alt="facebook"></a></li>
             <li><a href="#" class="social__vk"><img src="img/Vkontakte.png" alt="Vkontakte"></a></li>
@@ -211,8 +210,8 @@
           <ul class="gen">
             <li class="suppliers"><ins class="underscore"><span class="porky">Для поставщиков</span> О производстве</ins></li>
             <li class="document"><ins class="underscore">Наши документы Экологические стандарты</ins></li>
-            <li><img src="img/logo-footer.png" class="logo-footer" alt="logo"></li>
-            <li class="copyright">Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> 2017</li>
+            <li class="picture"><img src="img/logo-footer.png" class="logo-footer" alt="logo"></li>
+			<li class="under_the_picture">Сделано в <a href="https://htmlacademy.ru">HTML Academy</a> 2017</li>
           </ul>
         </footer>
       </main>
