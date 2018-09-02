@@ -40,31 +40,33 @@
               </ul>
             </nav>
           </div>
-          <div class="column-50">
-              <a href="#" class="search-link">Поиск</a>
-               <form class="button_magnifier">            
-                <input type="image" src="img/loupe.png" class="button_scan" alt="Кнопка поиск">
+          <div class="column-50 right">
+              <a href="#" class="search-link left_hand_side">Поиск</a>
+               <form class="button_magnifier left_hand_side">            
+                <input type="image" src="img/loupe.png" class="button_scan" alt="поиск">
+				<input type="image" src="img/login_button.png" class="ingress" alt="вход">
+				<input type="image" src="img/Button_empty.png" alt="кнопка пусто" class="button_empty">
               </form>
               <div class="quest">
-               <form action="#" class="entrance">
+               <form action="#" class="entrance hidden_layer_caps">
                 <input type="text" class="input-search" name="search" id="search" placeholder="Что ищем?">
                </form>
               </div>
-              <form class="input__button">
-                <input type="image" src="img/login_button.png" class="ingress" alt="кнопка вхож">
+			  <div class="entrance_registration">
+               <form class="input__button">
                 <div class="inlet">
                  <input type="text" placeholder="электроная почта" class="mail"><br>
                  <input type="text" placeholder="пароль" class="password"><br>
                  <input type="image" src="img/button_come.png" class="login__button" alt="кнопка войти">
-                 <a href="#">Забыли пароль</a><br>
-                 <a href="#">Новая регистрация</a>
+                 <a href="#" class="forgot_password">Забыли пароль</a><br>
+                 <a href="#" class="new_registration">Новая регистрация</a>
                  </div>
                <br>
-                 <input type="image" src="img/Button_empty.png" alt="кнопка пусто">
-              </form>
-            <p class="worktime">C 10 до 20 ежедневно</p>
-            <a href="tel:88124502525" class="phone">8 812 450-25-25</a>
+               </form>
+			  </div>  
           </div>
+		  <p class="worktime">C 10 до 20 ежедневно</p>
+          <a href="tel:88124502525" class="phone">8 812 450-25-25</a>
         </div>
       </div>
     </header>
@@ -89,7 +91,13 @@
           <a href="#" class="main-slider__button">Давайте оба!</a>
         </div>
       </section>
-
+       <!--<section>
+	     <form class="check_in">
+		  <input type="text" class="what_is_your_name">
+          <input type="text" class="mail">	
+		  <textarea>Напиши что нибудь</textarea>
+		 </form>
+	   </section>-->
       <section class="switch">
         <h2 class="hidden">Переключатели слайдера</h2>
         <span class="slider-switch_1"></span>
@@ -99,13 +107,13 @@
 	   <section class="best-offers">
         <h2 class="hidden">Лучшие предложения</h2>
         <div class="best-offer--raspberry">
-          <h3 class="best-offer__title">Малинка даром</h3>
+          <h3 class="best-offer__title">Малинка даром!</h3>
           <p class="best-offer__description">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
           <a href="#" class="best-offer__button">Хочу варенье!</a>
         </div>
 
         <div class="best-offer--choko">
-          <h3 class="best-offer__title">Шоколад даром</h3>
+          <h3 class="best-offer__title">Шоколадки даром!</h3>
           <p class="best-offer__description">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно</p>
           <a href="#" class="best-offer__button">Хочу шоколадки!</a>
         </div>
@@ -183,17 +191,11 @@
         <h2 class="hidden">Подписка</h2>
         <p class="subscribe__description">Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
         <!-- Здесь будет форма -->
+		<form method="get" action="#">
+		 <input type="text" class="text_field"  placeholder="   Электронная почта">
+		 <input type="image" src="img/send_button.png" class="send_button">
+		</form>
 	  </div>
-      </section>
-      <section class="review">
-         <form method="post" action="#" class="data">
-          <input type="text" placeholder="Как вас зовут?" class="name"><br>
-          <input type="text" placeholder="Ваша почта для ответа?" class="mail"><br>
-          <input type="text" placeholder="Напишите что нибудь">
-        </form>
-          <form>
-          <input type="image" src="img/Button_send.png" alt="Отправить" class="hidden">
-        </form>
       </section>
       <section class="information">
         <h2 class="hidden">Информация</h2>
@@ -201,7 +203,7 @@
         <p class="address">Адрес главного офиса и офлайн-магазина:</p>
         <p class="Street">ул.Большая конюшенная 19/8, Санкт-Петербург</p>
 
-        <p class="phone">Для заказов по телефону:</p>
+        <p class="telephone">Для заказов по телефону:</p>
         <p class="number">8 812 450-25-25<span class="working__hours"><br>(c 10 до 20 ежедневно)</span></p>
         <form class="Feedback" action="#" method="get">
           <input type="image" src="img/Button_bond.png" class="feedback_button" alt="Обратная связь">

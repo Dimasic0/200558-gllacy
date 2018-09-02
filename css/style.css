@@ -48,6 +48,7 @@ body
 {
   margin: 0 auto;
   width: 1140px;
+  display:flex;
 }
 .row-flex
 {
@@ -59,7 +60,7 @@ body
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-left: -13px;
+  margin-left: -100px;
   margin-right: -13px;
 }
 .column-50
@@ -69,8 +70,16 @@ body
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 /* Header */
+.left_hand_side
+{
+ margin-left:355px;
+}
+.hidden_layer_caps
+{
+  margin-top:5px;
+  margin-left:15px;
+}
 .main-header 
 {
   padding: 9px 0;
@@ -81,6 +90,8 @@ body
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  flex-direction:row;
+  justify-content:flex-start;
   flex-wrap: wrap;
 }
 .main-menu
@@ -177,24 +188,20 @@ body
 }
 .worktime
 {
+  width:153px;
   color:#f6f8f7;
   font-size:14px;
-  line-height:16px;
   color:white;
   font-weight:bold;
-  margin-left:1134px;
+  margin-left:1090px;
 }   
-.phone
-{
-  margin-top:30px;
-}
 header .phone
 {
   color:#f6f8f7;
   font-size:22px;
-  line-height:24px;
   text-decoration:none;
   font-weight:bold;
+  margin-left:1070px;
 }
 .main-slider__title
 {
@@ -207,40 +214,23 @@ header .phone
 {
   text-align: center;
 }
-.best-offer__title
-{
-  color:white;
-  font-size:35px;
-  font-weight:bold;
-  line-height:41px;
-}
-.best-offer__description
-{
-  color:white;
-  font-size:18px;
-  line-height:22px;
-  font-weight:bold;
- }
-.best-offer__button
-{
-  color:white;
-  font-size:18px;
-  line-height:24px;
-  font-weight:bold;
-}
 .product-item__price
 {
   color:white;
   font-size:45px;
   font-weight:bold;
-  line-height:45px;
+}
+.benefit_1 span
+{
+	width:40px;
+	height:40px;
+    background:url("img/iceca_ice_cream.png")no-repeat;
 }
 .small
 {
   color:white;
   font-size:30px;
   font-weight:bold;
-  line-height:13px;
 }
 .product
 {
@@ -265,27 +255,6 @@ header .phone
   font-weight:Regular;
   line-height:22px;
 }
-.new-article__caption
-{
-  color:#323232;
-  font-size:16px;
-  font-weight:medium;
-  line-height:22px;
-}
-.new-article__title a
-{
-  color:#323232;
-  font-size:24px;
-  font-weight:bold;
-  line-height:30px;
-}
-.subscribe__description
-{
-  color:#5a5a5a;
-  font-size:16px;
-  font-weight:normal;
-  line-height:22px;
-}  
 .address
 {
   color:#323232;
@@ -299,13 +268,6 @@ header .phone
   font-size:18px;
   font-weight:bold;
   line-height:24px;
-}
-.phone
-{
-  color:#323232;
-  font-size:14px;
-  font-weight:normal;
-  line-height:20px;
 }
 .number
 {
@@ -349,13 +311,6 @@ header .phone
   font-weight:normal;
   line-height:18px
 }
-.best-offer__description
-{
-  color:white;
-  font-size:18px;
-  font-weight:bold;
-  line-height:22px;
-}
 .new-article
 {
   width:1146px;
@@ -370,6 +325,8 @@ header .phone
 }
 .information
 {
+  padding-top:62px;	
+  margin-top:40px;
   width:1250px;
   height:430px;
   background:url("img/map_ice.png")no-repeat;
@@ -379,14 +336,34 @@ header .phone
   width:302px;
   height:305px;
   border-radius: 15px;
+  margin-left:871px;
   background-color: rgba(255, 255, 255, 0.98);
   z-index: 88;
 }
-.name,.mail
+.information p
 {
-  width:268px;
+	padding-left:26px;
+}
+.mail
+{
+  width:240px;
   height:44px;
   border-radius: 5px;
+  margin-top:20px;
+  margin-left:19px;
+}
+.entrance_registration .password
+{
+margin-top:20px;
+margin-left:19px;
+width:238px;
+height:44px;
+border-radius:5px;	
+}
+.entrance_registration .login__button
+{
+	margin-top:20px;
+	margin-left:19px;
 }
 .review
 {
@@ -402,16 +379,20 @@ header .phone
 }
 .input-search
 {
-  width:309px;
+  width:310px;
   height:44px;
   border-radius: 6px;
+  margin-top:20px;
 }
 .quest
 {
+  /*display:none;*/
   color:#f8f7f4;
-  width:345px;
+  width:340px;
   height:84px;
   background-color:#f8f7f4;
+  border-radius:5px;
+  margin-left:50px;
 }
 .bestsellers img
 {
@@ -422,6 +403,18 @@ header .phone
 {
   width:154px;
   height:64px;
+}
+.entrance_registration
+{
+	/*display:none;*/
+	background-color:#f8f7f4;
+	width:277px;
+	height:214px;
+	margin-left:205px;
+}
+.button_empty
+{
+	margin-left:10px;
 }
 .logo-footer
 {
@@ -443,21 +436,15 @@ header .phone
 {
 	width:474px;
 }
-.blog div
+.forgot_password
 {
-width:560px;
-height:220px;
+	margin-top:-10px;
+	margin-left:21px;
 }
-.New_service
+.new_registration
 {
-  background-color:red;
-  background:url("img/Strawberry_background.png")no-repeat;
-}
-.subscription
-{
-  background:url("img/subscription.png")no-repeat;
-}
- 
+	margin-left:120px;
+} 
 .bread__crumbs a,
 .bread__crumbs li
 {
@@ -620,42 +607,29 @@ height:220px;
   background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
   box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
 }
-.best-offers .best-offer__button
-{
-  color:#fceae6;
-  font-size:18px;
-  font-weight:bold;
-  line-height:24px;
-  width: 165px;
-  height: 46px;
-  background-color:red;
-  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-  border-radius:30px; 
-}
-.new-article__caption
-{
-  color:#323232;
-  font-size:16px;
-  font-weight:medium;
-  line-height:22px;
-  
-}
-.new-article__title a
-{
-  color:#323232;
-  font-size:24px;
-  font-weight:bold;
-  line-height:30px;
-}
 .subscribe__description
 {
   color:#5a5a5a;
+  width:510px;
   font-size:16px;
   font-weight:Regular;
   line-height:22px;
+  padding-top:17px;
+  padding-left:26px;
+}
+.subscription .text_field
+{
+ width:366px;
+ height:39px;
+ border-radius:0px;
+ margin-top:20px;
+ margin-left:25px;
+ padding-left;20px;
+}
+.subscription .send_button
+{
+	padding-top:0px;
+	padding-left:0px;
 }
 .address
 {
@@ -670,12 +644,6 @@ height:220px;
   font-size:18px;
   font-weight:bold; 
   line-height:24px;
-}
-.phone
-{
-  color:#919191;
-  font-size:14px;
-  font-weight:Regular;
 }
 .number
 {
@@ -699,25 +667,48 @@ height:220px;
 	align-items: flex-start;
 }
 .best-offers div
+{	
+    display:flex;
+    flex-direction: column;
+	border-radius:15px;
+}
+.best-offer__button
 {
-  /*width:560px;*/
-	height:230px;
+  color:#fceae6;
+  font-size:18px;
+  font-weight:bold;
+  line-height:24px;
+  background-color:red;
+  background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  border-radius:30px;
 }
 .best-offer--raspberry
 {
+  width:550px;
+  height:229px;	
   background-color:red;
-  background: url("img/Crimson_background.png") no-repeat;
-  margin-left:29px;
+  background: url("img/raspberriesbg.jpg") no-repeat;
+  margin-top:3px;
+  margin-left:26px;
+  padding-right:10px;
+  background-size:572px;
+  background-position:-2px -3px;
 }
 .best-offer--choko
 {
-	width: 1200px;
+	width:561px;
+    height:228px;
     margin: 0 auto;
     margin-top: 0px;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-left: -80px;
-   background: url("img/Chocolate_background.png") no-repeat;
+    margin-left: 26px;
+    background: url("img/chocolatebg.jpg") no-repeat;
+	background-size:572px;
+	background-position:-4px;
 }
 .best-offer--raspberry h3
 {
@@ -725,15 +716,60 @@ height:220px;
   font-weight:bold;
   font-size:35px;
   line-height:41px;
+  margin-top:16px;
+  margin-left:19px;
 }
 .best-offer--raspberry p
 {
   color:white;
   font-family:roboto;
   font-size:18px;
+  font-weight:bold;
   font-weight:regular;
   line-height:22px;
-  width:518px;
+  width:511px;
+  color:white;
+  margin-top:-21px;
+  margin-left:21px;
+}
+.best-offer--raspberry a
+{	
+  width:142px;
+  height:35px;
+  margin-top:25px;
+  margin-left:375px;
+  padding-top:11px; 
+  padding-left:22px; 
+}
+.best-offer--choko h3
+{
+  color:white;
+  font-size:35px;
+  font-family:roboto;
+  font-weight:bold;
+  margin-top:12px;
+  margin-left:19px;
+}
+.best-offer--choko p
+{
+	color:white;
+	font-size:18px;
+	line-height:22px;
+	font-weight:bold;
+	margin-top:-25px;
+	margin-left:20px;
+	line-height:22px;
+	width:510px;
+}
+.best-offer--choko a
+{
+	width:167px;
+	height:36px;
+	font-size:18px;
+	margin-top:25px;
+	margin-left:350px;
+	padding-top:11px;
+	padding-left:22px;
 }
 .bestsellers img
 {
@@ -827,12 +863,54 @@ footer .first_social
 	line-height:22px;
 	font-weight:Regular;
 }
-.New_service .new-article__caption
+.blog
 {
+	display:flex;
+	justify-content:center;
+	width:1200px;
+}
+.New_service
+{
+  width:1549px;
+  height:220px;
+  margin-top:15px;
+  margin-left:27px;
+  background-size:560px;
+  background-color:red;
+  border-radius:15px;
+  background-position: 0px 0px;
+  background:url("img/Readme_md.jpg")no-repeat;
+}
+.subscription
+{
+  width:667px;
+  height:220px;
+  background:url("img/envelope.jpg")no-repeat;
+  background-size:560px;
+  margin-top:15px;
+  margin-left:-777px
+}
+.New_service p
+{
+	color:323232;
 	font-family:robot;
 	font-weight:medium;
-	font-size:16px;
-	line-height:22px;
+	font-size:18px;
+    padding-top:3px;
+	padding-left:18px;
+	margin-bottom:-19px;
+}
+.New_service h2
+{
+	width:285px;
+	margin-left:20px;
+	line-height:30px;
+}
+.new-article__title a
+{
+  color:#323232;
+  font-size:24px;
+  font-weight:bold;
 }
 .stratum
 {
