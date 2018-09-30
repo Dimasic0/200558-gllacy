@@ -1,0 +1,299 @@
+
+<style>
+.product-item
+{
+font-family:roboto,serif;
+font-size:16px;
+line-height:22px;
+letter-spacing:0px;
+}
+.main-menu__item
+{
+font-family:roboto,serif;
+font-size:16px;
+font-weight:bold;
+color:rgb(255,255,255);
+}
+.porky
+{
+font-family:roboto,serif;
+font-size:13px;
+font-weight:bold;
+line-height:16px;
+letter-spacing:0px;
+color:
+  }
+.lines_1,
+.stroke_2
+{
+font-size:13px;
+line-height:16px;
+}
+.copyright
+{
+font-size:12px;
+line-height:16px;
+}
+p
+{
+color:white;
+}
+.sub-menu__item a,
+.main-menu__item a
+{
+color:white;
+}
+body
+{
+background-color:#8a9c8f;
+}
+.search-link
+{ 
+font-family:Roboto,serif;
+font-size:14px;
+font-weight:bold;
+color:white;
+ }
+ .text_Search
+ {
+display:none;
+font-weight:bold;
+ }
+.entry-link
+{
+font-family:roboto,serif;
+font-size:14px;
+font-weight:medium;
+color:white;
+}
+.worktime
+{
+font-family:roboto,serif;
+font-size:14px;
+line-height:16px;
+color:white;
+}
+.phone
+ {
+font-family:roboto,serif;
+font-size:22px;
+font-weight:bold;
+color:white;
+text-decoration: none;	  
+}
+.hidden
+{
+display:none;
+}
+.menu_section li,
+.menu_section li a
+{
+font-family:roboto,serif;
+color:white;
+font-size:14px;
+font-weight:Regular;
+}
+.form legend
+{
+font-family:robotp,serif;
+font-size:14px;
+font-weight:medium;
+color:white;	  
+ }
+.fat_content + legend,
+.fillers  label
+ {
+font-family:roboto,serif;
+color:white;
+font-size:16px;	  
+ }
+.form>input
+{
+font-family:roboto,serif;
+font-size:16px;
+line-height:18px;
+color:white;
+border-style: solid;
+border-width: 2px;
+border-color: rgb(255, 255, 255);
+background-color:#a6b7ae;
+width: 148px;
+height: 41px;
+border-radius:30px;
+}
+
+}
+.fat_content label
+{
+font-family:roboto,serif;
+font-size:16px;
+line-height:18px;
+color:white;
+}
+.product
+{
+font-family:roboto;
+color:white;
+font-size:14px;
+line-height:22px;
+}
+.product-item__price
+{
+font-family:roboto,serif;
+color:white;
+font-size:45px;
+line-height:45px;
+}
+.pages li a
+{
+color:white;
+font-family:roboto,serif;
+font-size:16px;
+line-height:18px;
+font-weight:Medium;
+}
+.pages li
+{
+display:inline-block;
+}
+.pages li:first-child
+{
+border-radius: 50%;
+background-color: rgb(255, 255, 255);
+width: 27px;
+height: 26px;
+text-align:center;
+}
+.pages li:first-child a
+{
+color:#323232;
+}
+.suppliers
+{
+font-size:13px;
+line-height:16px;
+color:white;
+}
+.suppliers .porky
+{
+font-weight:bold;
+}
+.document
+{
+font-size:13px;
+line-height:16px;
+color:white;
+}
+.copyright,
+.copyright a
+{
+font-size:12px;
+line-height:16px;
+color:#fefefe;
+}
+.filter-form
+{
+background-color:#a9bab0;
+width: 194px;
+height: 37px;
+border-radius:30px;
+color:white;
+}
+.filter-form option
+{
+color:white;
+font-family:roboto,serif;
+font-size:16px;
+line-height:18px;
+font-weight:Medium;
+}
+.fat_content div
+{
+background-color:#aabbb1;
+width: 415px;
+height: 37px;
+border-radius:30px;
+}
+.protsenty	input
+{
+width:22px;
+height:22px;
+border-radius:20px;
+border:4px;
+border-color:#e9eeec;
+background-color:#aabcb2;
+}
+.protsenty input
+{
+margin-top:7px;
+margin-left:14px;
+}
+.fillers .oval
+{
+background-color:#a8b9af;
+width: 703px;
+height: 37px;
+border-radius:30px;
+}
+.toddler .oval
+{
+background-color:#aabcb2;
+width: 220px;
+height: 37px;
+border-radius:30px;
+}
+.protsenty label
+{
+	color:white;
+}
+.product-item__button
+{
+background-image: -moz-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+background-image: -webkit-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+background-image: -ms-linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
+box-shadow: 0px 1px 2px 0px rgba(172, 16, 0, 0.004);
+width: 200px;
+height: 45px;
+}
+.product-item:hover
+{
+	height:405px;
+	width:293px;
+	background-color:rgb(255,255,255,0.2);
+}
+.main-menu__item:first-child
+{
+  background-color: rgb(208, 112, 88);
+  width: 87px;
+  height: 32px;
+  border-radius:20px;
+}
+.order button
+{
+	background-color:#a1b4a9;
+	border-radius:50%;
+	width:33px;
+	height:33px;
+}
+.order button:hover
+{
+	background-color:#f8f7f4;
+}
+.search_button:not(:hover) .black_button
+{
+	display:none;
+}
+..search_button:not(:hover) .white_button
+{
+	display:block;
+}
+.search_button:hover .black_button
+{
+	display:block;
+}
+.search_button:hover .white_button
+{
+	display:none;
+}
+</style>
+  

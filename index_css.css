@@ -1,0 +1,283 @@
+<style>
+.main-slider_button
+{
+background-color:#8a9c8f;
+}
+body
+{
+background-color:#8a9c8f;
+}
+.main-slider
+{
+background: url("C:\Users\user\Desktop\img\Мороженое.png");
+}
+.modal
+{
+background-color: white;
+width:473px;
+height:4.50px;
+}
+.door
+{
+background-color:white;
+width: 476px;
+height: 442px; 
+}
+.data .name, .data .mail
+{
+width:267px;
+height:35px;
+}
+.write
+{
+width:428px;
+height: 152px;
+}
+.inlet .mail
+{
+width: 238px;
+height: 44px;
+}
+.inlet .password
+{
+width: 240px;
+height: 43px;
+}
+.inlet
+{
+background-color: white;
+width: 279px;
+height:216;
+}
+.main-menu li a
+{
+color:white;
+font-size:16px;
+line-height:18px;
+font-family:roboto,serif;
+font-weight:bold;
+}
+.worktime
+{
+font-size:14px;
+line-height:16px;
+color:white;
+font-family:roboto,serif;
+font-weight:bold;
+}
+.phone
+{
+font-family:roboto,serif;
+font-size:22px;
+line-height:16px;
+font-weight:bold;
+color:white;
+}
+.hidden
+{
+	display:none;
+}
+.best-offer  h3
+{
+	font-size:35px;
+	color:white;
+	font-weight:bold;
+}
+.best-offer p
+{
+	font-size:18px;
+	line-height:22px;
+	color:white;
+	font-weight:bold;
+	width:483px;
+	height:229px;
+}
+.product-item__image
+{
+	width:267px;
+	height:267px;
+}
+.product-item__price
+{
+	font-size:45px;
+	line-height:22px;
+	color:white;
+	font-weight:bold;
+}
+.small
+{
+	font-size:30px;
+	line-height:45px;
+	color:white;
+}
+.product
+{
+	font-size:16px;
+	line-height:22px;
+	font-weight:medium;
+	color:white;
+	width:257px;
+	text-align:center;
+}
+.benefits__title
+{
+	font-family:roboto,serif;
+	font-size:24px;
+	color:#323232;
+	line-height:30px;
+	width:1114px;
+	text-align:left;
+}
+.benefit__description
+{
+	font-family:roboto,serif;
+	font-size:16px;
+	line-height:22px;
+	font-weight:Regular;
+	color:white;
+	width:429px;
+	text-align:left;
+}
+.benefit__description:last-child
+{
+	width:424px;
+}
+.new-article__caption
+{
+  font-family:roboto;
+  font-size:16px;
+  font-weight:Medium;
+  line-height:22px;
+  color:#323232;
+}
+.new-article__title 
+{
+	font-family:roboto,serif;
+	font-size:24px;
+	line-height:30px;
+	font-weight:bold;
+	width:281px;
+}
+.new-article__title a
+{
+  color:#323232;
+}
+.subscribe__description
+{
+	width:454px;
+	font-size:16px;
+	line-height:22px;
+	color:#5a5a5a;
+}
+.address
+{
+	font-size:14px;
+	line-height:22px;
+	font-weight:Regular;
+	color:#323232;
+	width:132px;
+}
+.address+p
+{
+	font-size:18px;
+	line-height:24px;
+	color:#323232;
+	font-weight:bold;
+	width:208px;
+}
+.telephone
+{
+	font-family:roboto,serif;
+	font-size:14px;
+	font-weight:Regular;
+	color:#323232;
+}
+.number
+{
+	font-family:roboto,serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#323232;
+}
+.working__hours
+{
+	font-size:14px;
+	font-weight:Regular;
+	line-height:22px;
+	color:#323232;
+}
+.underscore
+{
+	font-size:13px;
+	line-height:12px;
+	font-weight:bold;
+	color:white;
+}
+.suppliers
+{
+	width:106px;
+}
+.document ins
+{
+	font-size:13px;
+	line-height:12px;
+	font-weight:Regular;
+	color:white;
+}
+.document
+{
+	width:156px;
+}
+.copyright,
+.copyright a
+{
+	font-family:roboto,serif;
+	font-size:12px;
+	line-height:18px;
+	color:#fefefe;
+}
+.text
+{
+	font-size:24px;
+	color:#323232;
+}
+.inlet a
+{
+	font-family:roboto,serif;
+	font-size:13px;
+	color:#323232;
+}
+.best-offer
+{
+	width:560px;
+	height:229px;
+}
+.best-offer--raspberry
+{
+	background:url("img/Crimson background.png") no-repeat;
+	background-size:560px 229px;
+}
+.best-offer--choko
+{
+	background:url("img/Chocolate background.png") no-repeat;
+	background-size:560px 229px;
+}
+.best-offer__description
+{
+	width:100px;
+}
+.best-offer--raspberry .best-offer__button
+{
+	width:165px;
+	height:46px;
+	background-color:#ef6441;
+	font-size:18px;
+	line-height:24px;
+	color:white;
+}
+.main-slider__button
+{
+	width:280px;
+	height:63px;
+}
+</style>
