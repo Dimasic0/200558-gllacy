@@ -14,9 +14,12 @@ body
   display:none;
 }
 .main-slider__button
+
+
+
 {
   display: inline-block;
-  padding: 9 41px;
+  padding: 9 42px;
   height: 64px;
   font-size: 32px;
   font-weight: 700;
